@@ -1,0 +1,15 @@
+[
+  {
+    "directory": "F:\\Xilinx\\projeto_hls\\adder",
+    "arguments": [
+      "F:\\Xilinx\\Vitis\\2024.2\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=F:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=F:\\Xilinx\\Vitis\\2024.2\\common\\technology\\autopilot",
+      "-fhlstoplevel=adder",
+      "-c",
+      "F:\\Xilinx\\projeto_hls\\adder\\adder.cpp"
+    ],
+    "file": "F:\\Xilinx\\projeto_hls\\adder\\adder.cpp"
+  }
+]

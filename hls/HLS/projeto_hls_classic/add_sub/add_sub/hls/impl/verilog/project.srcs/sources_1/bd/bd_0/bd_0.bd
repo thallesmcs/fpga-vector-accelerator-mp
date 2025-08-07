@@ -1,0 +1,208 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x6B926495D6F98067",
+      "device": "xc7z007sclg400-1",
+      "gen_directory": "../../../../project.gen/sources_1/bd/bd_0",
+      "name": "bd_0",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "hls_inst": ""
+    },
+    "interface_ports": {
+      "ap_ctrl": {
+        "mode": "Slave",
+        "vlnv_bus_definition": "xilinx.com:interface:acc_handshake:1.0",
+        "vlnv": "xilinx.com:interface:acc_handshake_rtl:1.0",
+        "port_maps": {
+          "done": {
+            "physical_name": "ap_ctrl_done",
+            "direction": "O"
+          },
+          "idle": {
+            "physical_name": "ap_ctrl_idle",
+            "direction": "O"
+          },
+          "ready": {
+            "physical_name": "ap_ctrl_ready",
+            "direction": "O"
+          },
+          "start": {
+            "physical_name": "ap_ctrl_start",
+            "direction": "I"
+          }
+        }
+      }
+    },
+    "ports": {
+      "ap_rst": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "input_a_soma": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "input_a_sub": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "input_b_soma": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "input_b_sub": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "output_soma": {
+        "type": "data",
+        "direction": "O",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "output_soma_ap_vld": {
+        "direction": "O"
+      },
+      "output_subtracao": {
+        "type": "data",
+        "direction": "O",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "output_subtracao_ap_vld": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "hls_inst": {
+        "vlnv": "xilinx.com:hls:top_function:1.0",
+        "ip_revision": "2114113442",
+        "xci_name": "bd_0_hls_inst_0",
+        "xci_path": "ip\\bd_0_hls_inst_0\\bd_0_hls_inst_0.xci",
+        "inst_hier_path": "hls_inst"
+      }
+    },
+    "interface_nets": {
+      "ap_ctrl_0_1": {
+        "interface_ports": [
+          "ap_ctrl",
+          "hls_inst/ap_ctrl"
+        ]
+      }
+    },
+    "nets": {
+      "ap_rst_0_1": {
+        "ports": [
+          "ap_rst",
+          "hls_inst/ap_rst"
+        ]
+      },
+      "hls_inst_output_soma": {
+        "ports": [
+          "hls_inst/output_soma",
+          "output_soma"
+        ]
+      },
+      "hls_inst_output_soma_ap_vld": {
+        "ports": [
+          "hls_inst/output_soma_ap_vld",
+          "output_soma_ap_vld"
+        ]
+      },
+      "hls_inst_output_subtracao": {
+        "ports": [
+          "hls_inst/output_subtracao",
+          "output_subtracao"
+        ]
+      },
+      "hls_inst_output_subtracao_ap_vld": {
+        "ports": [
+          "hls_inst/output_subtracao_ap_vld",
+          "output_subtracao_ap_vld"
+        ]
+      },
+      "input_a_soma_0_1": {
+        "ports": [
+          "input_a_soma",
+          "hls_inst/input_a_soma"
+        ]
+      },
+      "input_a_sub_0_1": {
+        "ports": [
+          "input_a_sub",
+          "hls_inst/input_a_sub"
+        ]
+      },
+      "input_b_soma_0_1": {
+        "ports": [
+          "input_b_soma",
+          "hls_inst/input_b_soma"
+        ]
+      },
+      "input_b_sub_0_1": {
+        "ports": [
+          "input_b_sub",
+          "hls_inst/input_b_sub"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "adder_new",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "adder_new"
+  },
+  "template": "empty_hls_component"
+}

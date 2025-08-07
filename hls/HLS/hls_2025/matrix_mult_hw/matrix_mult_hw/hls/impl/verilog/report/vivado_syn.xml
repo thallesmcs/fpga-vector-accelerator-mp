@@ -1,0 +1,123 @@
+<profile>
+<RunData>
+  <RUN_TYPE>synth</RUN_TYPE>
+  <VIVADO_VERSION>v.2025.1</VIVADO_VERSION>
+  <ROOT_MODULE_CELL>bd_0_i/hls_inst</ROOT_MODULE_CELL>
+</RunData>
+<TimingReport>
+  <TargetClockPeriod>10.000</TargetClockPeriod>
+  <AchievedClockPeriod>5.745</AchievedClockPeriod>
+  <CLOCK_NAME>ap_clk</CLOCK_NAME>
+  <CP_FINAL>5.745</CP_FINAL>
+  <CP_ROUTE>NA</CP_ROUTE>
+  <CP_SYNTH>5.745</CP_SYNTH>
+  <CP_TARGET>10.000</CP_TARGET>
+  <SLACK_FINAL>4.255</SLACK_FINAL>
+  <SLACK_ROUTE></SLACK_ROUTE>
+  <SLACK_SYNTH>4.255</SLACK_SYNTH>
+  <TIMING_MET>TRUE</TIMING_MET>
+  <TNS_FINAL>0.000</TNS_FINAL>
+  <TNS_ROUTE>NA</TNS_ROUTE>
+  <TNS_SYNTH>0.000</TNS_SYNTH>
+  <WNS_FINAL>4.255</WNS_FINAL>
+  <WNS_ROUTE>NA</WNS_ROUTE>
+  <WNS_SYNTH>4.255</WNS_SYNTH>
+</TimingReport>
+<AreaReport>
+  <Resources>
+    <BRAM>1</BRAM>
+    <CLB>0</CLB>
+    <DSP>48</DSP>
+    <FF>2270</FF>
+    <LATCH>0</LATCH>
+    <LUT>3943</LUT>
+    <SRL>9</SRL>
+    <URAM>0</URAM>
+  </Resources>
+  <AvailableResources>
+    <BRAM>150</BRAM>
+    <CLB>0</CLB>
+    <DSP>120</DSP>
+    <FF>65200</FF>
+    <LUT>32600</LUT>
+    <URAM>0</URAM>
+  </AvailableResources>
+</AreaReport>
+<RtlModules>
+  <RtlModule CELL="inst" DEPTH="0" FILE_NAME="bd_0_hls_inst_0.v" ORIG_REF_NAME="matrix_mult_hw" TOP_CELL="bd_0_i/hls_inst/inst">
+    <SubModules count="18">control_s_axi_U flow_control_loop_delay_pipe_U mul_32s_32s_32_2_1_U1 mul_32s_32s_32_2_1_U10 mul_32s_32s_32_2_1_U11 mul_32s_32s_32_2_1_U12 mul_32s_32s_32_2_1_U13 mul_32s_32s_32_2_1_U14 mul_32s_32s_32_2_1_U15 mul_32s_32s_32_2_1_U16 mul_32s_32s_32_2_1_U2 mul_32s_32s_32_2_1_U3 mul_32s_32s_32_2_1_U4 mul_32s_32s_32_2_1_U5 mul_32s_32s_32_2_1_U6 mul_32s_32s_32_2_1_U7 mul_32s_32s_32_2_1_U8 mul_32s_32s_32_2_1_U9</SubModules>
+    <Resources BRAM="1" DSP="48" FF="2270" LUT="3943" LUTRAM="2048" LogicLUT="1886" RAMB18="1" SRL="9"/>
+    <LocalResources FF="841" LUT="417" LogicLUT="408" SRL="9"/>
+  </RtlModule>
+  <RtlModule CELL="inst/control_s_axi_U" DEPTH="1" FILE_NAME="matrix_mult_hw.v" ORIG_REF_NAME="matrix_mult_hw_control_s_axi">
+    <Resources BRAM="1" FF="1155" LUT="3222" LUTRAM="2048" LogicLUT="1174" RAMB18="1"/>
+    <LocalResources FF="131" LUT="169" LogicLUT="169"/>
+  </RtlModule>
+  <RtlModule CELL="inst/flow_control_loop_delay_pipe_U" DEPTH="1" FILE_NAME="matrix_mult_hw.v" ORIG_REF_NAME="matrix_mult_hw_flow_control_loop_delay_pipe">
+    <Resources FF="2" LUT="64" LogicLUT="64"/>
+  </RtlModule>
+  <RtlModule CELL="inst/mul_32s_32s_32_2_1_U1" DEPTH="1" FILE_NAME="matrix_mult_hw.v" ORIG_REF_NAME="matrix_mult_hw_mul_32s_32s_32_2_1">
+  </RtlModule>
+  <RtlModule CELL="inst/mul_32s_32s_32_2_1_U10" DEPTH="1" FILE_NAME="matrix_mult_hw.v" ORIG_REF_NAME="matrix_mult_hw_mul_32s_32s_32_2_1">
+  </RtlModule>
+  <RtlModule CELL="inst/mul_32s_32s_32_2_1_U11" DEPTH="1" FILE_NAME="matrix_mult_hw.v" ORIG_REF_NAME="matrix_mult_hw_mul_32s_32s_32_2_1">
+  </RtlModule>
+  <RtlModule CELL="inst/mul_32s_32s_32_2_1_U12" DEPTH="1" FILE_NAME="matrix_mult_hw.v" ORIG_REF_NAME="matrix_mult_hw_mul_32s_32s_32_2_1">
+  </RtlModule>
+  <RtlModule CELL="inst/mul_32s_32s_32_2_1_U13" DEPTH="1" FILE_NAME="matrix_mult_hw.v" ORIG_REF_NAME="matrix_mult_hw_mul_32s_32s_32_2_1">
+  </RtlModule>
+  <RtlModule CELL="inst/mul_32s_32s_32_2_1_U14" DEPTH="1" FILE_NAME="matrix_mult_hw.v" ORIG_REF_NAME="matrix_mult_hw_mul_32s_32s_32_2_1">
+  </RtlModule>
+  <RtlModule CELL="inst/mul_32s_32s_32_2_1_U15" DEPTH="1" FILE_NAME="matrix_mult_hw.v" ORIG_REF_NAME="matrix_mult_hw_mul_32s_32s_32_2_1">
+  </RtlModule>
+  <RtlModule CELL="inst/mul_32s_32s_32_2_1_U16" DEPTH="1" FILE_NAME="matrix_mult_hw.v" ORIG_REF_NAME="matrix_mult_hw_mul_32s_32s_32_2_1">
+  </RtlModule>
+  <RtlModule CELL="inst/mul_32s_32s_32_2_1_U2" DEPTH="1" FILE_NAME="matrix_mult_hw.v" ORIG_REF_NAME="matrix_mult_hw_mul_32s_32s_32_2_1">
+  </RtlModule>
+  <RtlModule CELL="inst/mul_32s_32s_32_2_1_U3" DEPTH="1" FILE_NAME="matrix_mult_hw.v" ORIG_REF_NAME="matrix_mult_hw_mul_32s_32s_32_2_1">
+  </RtlModule>
+  <RtlModule CELL="inst/mul_32s_32s_32_2_1_U4" DEPTH="1" FILE_NAME="matrix_mult_hw.v" ORIG_REF_NAME="matrix_mult_hw_mul_32s_32s_32_2_1">
+  </RtlModule>
+  <RtlModule CELL="inst/mul_32s_32s_32_2_1_U5" DEPTH="1" FILE_NAME="matrix_mult_hw.v" ORIG_REF_NAME="matrix_mult_hw_mul_32s_32s_32_2_1">
+  </RtlModule>
+  <RtlModule CELL="inst/mul_32s_32s_32_2_1_U6" DEPTH="1" FILE_NAME="matrix_mult_hw.v" ORIG_REF_NAME="matrix_mult_hw_mul_32s_32s_32_2_1">
+  </RtlModule>
+  <RtlModule CELL="inst/mul_32s_32s_32_2_1_U7" DEPTH="1" FILE_NAME="matrix_mult_hw.v" ORIG_REF_NAME="matrix_mult_hw_mul_32s_32s_32_2_1">
+  </RtlModule>
+  <RtlModule CELL="inst/mul_32s_32s_32_2_1_U8" DEPTH="1" FILE_NAME="matrix_mult_hw.v" ORIG_REF_NAME="matrix_mult_hw_mul_32s_32s_32_2_1">
+  </RtlModule>
+  <RtlModule CELL="inst/mul_32s_32s_32_2_1_U9" DEPTH="1" FILE_NAME="matrix_mult_hw.v" ORIG_REF_NAME="matrix_mult_hw_mul_32s_32s_32_2_1">
+  </RtlModule>
+</RtlModules>
+<TimingPaths>
+  <TPATH DATAPATH_DELAY="4.261" DATAPATH_LOGIC_DELAY="4.206" DATAPATH_NET_DELAY="0.055" ENDPOINT_PIN="bd_0_i/hls_inst/inst/mul_32s_32s_32_2_1_U1/buff0_reg/PCIN[0]" LOGIC_LEVELS="0" MAX_FANOUT="1" SLACK="4.255" STARTPOINT_PIN="bd_0_i/hls_inst/inst/mul_32s_32s_32_2_1_U1/tmp_product__0/CLK">
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_32s_32s_32_2_1_U1/tmp_product__0" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="matrix_mult_hw_mul_32s_32s_32_2_1.v" LINE_NUMBER="50"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_32s_32s_32_2_1_U1/buff0_reg" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="matrix_mult_hw_mul_32s_32s_32_2_1.v" LINE_NUMBER="50"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="4.261" DATAPATH_LOGIC_DELAY="4.206" DATAPATH_NET_DELAY="0.055" ENDPOINT_PIN="bd_0_i/hls_inst/inst/mul_32s_32s_32_2_1_U1/buff0_reg/PCIN[10]" LOGIC_LEVELS="0" MAX_FANOUT="1" SLACK="4.255" STARTPOINT_PIN="bd_0_i/hls_inst/inst/mul_32s_32s_32_2_1_U1/tmp_product__0/CLK">
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_32s_32s_32_2_1_U1/tmp_product__0" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="matrix_mult_hw_mul_32s_32s_32_2_1.v" LINE_NUMBER="50"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_32s_32s_32_2_1_U1/buff0_reg" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="matrix_mult_hw_mul_32s_32s_32_2_1.v" LINE_NUMBER="50"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="4.261" DATAPATH_LOGIC_DELAY="4.206" DATAPATH_NET_DELAY="0.055" ENDPOINT_PIN="bd_0_i/hls_inst/inst/mul_32s_32s_32_2_1_U1/buff0_reg/PCIN[11]" LOGIC_LEVELS="0" MAX_FANOUT="1" SLACK="4.255" STARTPOINT_PIN="bd_0_i/hls_inst/inst/mul_32s_32s_32_2_1_U1/tmp_product__0/CLK">
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_32s_32s_32_2_1_U1/tmp_product__0" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="matrix_mult_hw_mul_32s_32s_32_2_1.v" LINE_NUMBER="50"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_32s_32s_32_2_1_U1/buff0_reg" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="matrix_mult_hw_mul_32s_32s_32_2_1.v" LINE_NUMBER="50"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="4.261" DATAPATH_LOGIC_DELAY="4.206" DATAPATH_NET_DELAY="0.055" ENDPOINT_PIN="bd_0_i/hls_inst/inst/mul_32s_32s_32_2_1_U1/buff0_reg/PCIN[12]" LOGIC_LEVELS="0" MAX_FANOUT="1" SLACK="4.255" STARTPOINT_PIN="bd_0_i/hls_inst/inst/mul_32s_32s_32_2_1_U1/tmp_product__0/CLK">
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_32s_32s_32_2_1_U1/tmp_product__0" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="matrix_mult_hw_mul_32s_32s_32_2_1.v" LINE_NUMBER="50"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_32s_32s_32_2_1_U1/buff0_reg" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="matrix_mult_hw_mul_32s_32s_32_2_1.v" LINE_NUMBER="50"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="4.261" DATAPATH_LOGIC_DELAY="4.206" DATAPATH_NET_DELAY="0.055" ENDPOINT_PIN="bd_0_i/hls_inst/inst/mul_32s_32s_32_2_1_U1/buff0_reg/PCIN[13]" LOGIC_LEVELS="0" MAX_FANOUT="1" SLACK="4.255" STARTPOINT_PIN="bd_0_i/hls_inst/inst/mul_32s_32s_32_2_1_U1/tmp_product__0/CLK">
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_32s_32s_32_2_1_U1/tmp_product__0" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="matrix_mult_hw_mul_32s_32s_32_2_1.v" LINE_NUMBER="50"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_32s_32s_32_2_1_U1/buff0_reg" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="matrix_mult_hw_mul_32s_32s_32_2_1.v" LINE_NUMBER="50"/>
+  </TPATH>
+</TimingPaths>
+<VivadoReportFiles>
+  <ReportFile TYPE="design_analysis" PATH="verilog/report/matrix_mult_hw_design_analysis_synth.rpt"/>
+  <ReportFile TYPE="failfast" PATH="verilog/report/matrix_mult_hw_failfast_synth.rpt"/>
+  <ReportFile TYPE="power" PATH="verilog/report/matrix_mult_hw_power_synth.rpt"/>
+  <ReportFile TYPE="timing" PATH="verilog/report/matrix_mult_hw_timing_synth.rpt"/>
+  <ReportFile TYPE="timing_paths" PATH="verilog/report/matrix_mult_hw_timing_paths_synth.rpt"/>
+  <ReportFile TYPE="utilization" PATH="verilog/report/matrix_mult_hw_utilization_synth.rpt"/>
+  <ReportFile TYPE="utilization_hierarchical" PATH="verilog/report/matrix_mult_hw_utilization_hierarchical_synth.rpt"/>
+</VivadoReportFiles>
+</profile>

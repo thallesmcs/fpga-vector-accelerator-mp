@@ -1,0 +1,12 @@
+{
+  "name": "soma",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "soma"
+  },
+  "template": "empty_hls_component"
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "directory": "F:\\Xilinx\\projeto_hls\\add_sub",
+    "arguments": [
+      "F:\\Xilinx\\Vitis\\2024.2\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=F:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=F:\\Xilinx\\Vitis\\2024.2\\common\\technology\\autopilot",
+      "-fhlstoplevel=top_function",
+      "-c",
+      "F:\\Xilinx\\projeto_hls\\add_sub\\operacoes_aritmeticas.cpp"
+    ],
+    "file": "F:\\Xilinx\\projeto_hls\\add_sub\\operacoes_aritmeticas.cpp"
+  },
+  {
+    "directory": "F:\\Xilinx\\projeto_hls\\add_sub",
+    "arguments": [
+      "F:\\Xilinx\\Vitis\\2024.2\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=F:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=F:\\Xilinx\\Vitis\\2024.2\\common\\technology\\autopilot",
+      "-fhlstoplevel=top_function",
+      "-c",
+      "F:\\Xilinx\\projeto_hls\\add_sub\\top_level.cpp"
+    ],
+    "file": "F:\\Xilinx\\projeto_hls\\add_sub\\top_level.cpp"
+  }
+]

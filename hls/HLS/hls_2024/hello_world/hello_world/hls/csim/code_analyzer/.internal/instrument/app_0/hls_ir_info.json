@@ -1,0 +1,71 @@
+{
+    "top_level_hw_fn_id": 218,
+    "functions": {
+        "200": {
+            "fn_id": 200,
+            "mangled_name": "_GLOBAL__sub_I_hello_world_tb.cpp",
+            "fully_qualified_name": "_GLOBAL__sub_I_hello_world_tb",
+            "is_sys": true,
+            "is_declaration": false,
+            "supports_dataflow": false,
+            "src_loc": {
+                "file": "D:\\Projetos_HLS\\hello_world\\hello_world_tb.cpp",
+                "line": 0,
+                "column": 0
+            }
+        },
+        "201": {
+            "fn_id": 201,
+            "mangled_name": "__cxx_global_var_init",
+            "fully_qualified_name": "__cxx_global_var_init",
+            "is_sys": true,
+            "is_declaration": false,
+            "supports_dataflow": false,
+            "src_loc": {
+                "file": "D:\\Projetos_HLS\\hello_world\\hello_world_tb.cpp",
+                "line": 0,
+                "column": 0
+            }
+        },
+        "203": {
+            "fn_id": 203,
+            "mangled_name": "__dtor__ZStL8__ioinit",
+            "fully_qualified_name": "__dtor__ZStL8__ioinit",
+            "is_sys": true,
+            "is_declaration": false,
+            "supports_dataflow": false,
+            "src_loc": {
+                "file": "E:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt\\include\\c++\\9.5.0\\iostream",
+                "line": 74,
+                "column": 0
+            }
+        },
+        "218": {
+            "fn_id": 218,
+            "mangled_name": "_Z11hello_worldiPc",
+            "fully_qualified_name": "hello_world",
+            "is_sys": false,
+            "is_declaration": false,
+            "supports_dataflow": true,
+            "src_loc": {
+                "file": "D:\\Projetos_HLS\\hello_world\\hello_world.cpp",
+                "line": 3,
+                "column": 1
+            }
+        },
+        "17": {
+            "fn_id": 17,
+            "mangled_name": "llvm.memcpy.p0i8.p0i8.i64",
+            "fully_qualified_name": "llvm.memcpy.p0i8.p0i8.i64",
+            "is_sys": true,
+            "is_declaration": true,
+            "supports_dataflow": false
+        }
+    },
+    "loops": {
+        "1": {
+            "fn_id": 218,
+            "lp_id": 1
+        }
+    }
+}

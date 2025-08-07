@@ -1,0 +1,245 @@
+<ENTRY>
+{
+ "thisFile": "F:/Xilinx\\hls_2024\\adder_new\\adder_new\\adder_new.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "07/14/25 19:53:37",
+ "timestampMillis": "1752533617065",
+ "buildStep": {
+  "cmdId": "60e52bb6-26e7-463d-a1e2-5e1da14aaa72",
+  "name": "v++",
+  "logFile": "F:/Xilinx\\hls_2024\\adder_new\\adder_new\\logs\\adder_new.steps.log",
+  "commandLine": "F:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config F:\\Xilinx\\hls_2024\\adder_new\\hls_config.cfg --work_dir adder_new ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "F:\\Xilinx\\hls_2024\\adder_new\\hls_config.cfg",
+   "--work_dir",
+   "adder_new"
+  ],
+  "iniFiles": [
+   {
+    "path": "F:/Xilinx\\hls_2024\\adder_new\\hls_config.cfg",
+    "content": "part=xc7s50csga324-1\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.file=F:/Xilinx/hls_2024/adder_new/adder_new.cpp\nsyn.top=adder_new"
+   }
+  ],
+  "cwd": "F:\\Xilinx\\hls_2024\\adder_new"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/14/25 19:53:37",
+ "timestampMillis": "1752533617065",
+ "status": {
+  "cmdId": "60e52bb6-26e7-463d-a1e2-5e1da14aaa72",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "07/14/25 19:53:43",
+ "timestampMillis": "1752533623762",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "adder_new",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "F:/Xilinx\\hls_2024\\adder_new\\adder_new.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "07/14/25 19:53:43",
+ "timestampMillis": "1752533623763",
+ "buildStep": {
+  "cmdId": "24778a68-b6b0-4d9d-b810-0211f9d0e38b",
+  "name": "",
+  "logFile": "F:/Xilinx\\hls_2024\\adder_new\\adder_new\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "F:\\Xilinx\\hls_2024\\adder_new"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/14/25 19:53:43",
+ "timestampMillis": "1752533623763",
+ "status": {
+  "cmdId": "24778a68-b6b0-4d9d-b810-0211f9d0e38b",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/14/25 19:53:43",
+ "timestampMillis": "1752533623763",
+ "report": {
+  "path": "F:/Xilinx\\hls_2024\\adder_new\\adder_new\\hls\\hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/14/25 19:53:43",
+ "timestampMillis": "1752533623764",
+ "report": {
+  "path": "F:/Xilinx\\hls_2024\\adder_new\\adder_new\\hls\\syn\\report\\csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/14/25 19:53:43",
+ "timestampMillis": "1752533623764",
+ "report": {
+  "path": "F:/Xilinx\\hls_2024\\adder_new\\adder_new\\hls\\syn\\report\\csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/14/25 19:53:56",
+ "timestampMillis": "1752533636272",
+ "report": {
+  "path": "F:/Xilinx\\hls_2024\\adder_new\\adder_new\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/14/25 19:53:56",
+ "timestampMillis": "1752533636273",
+ "report": {
+  "path": "F:/Xilinx\\hls_2024\\adder_new\\adder_new\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/14/25 19:53:56",
+ "timestampMillis": "1752533636273",
+ "report": {
+  "path": "F:/Xilinx\\hls_2024\\adder_new\\adder_new\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/14/25 19:53:56",
+ "timestampMillis": "1752533636273",
+ "status": {
+  "cmdId": "24778a68-b6b0-4d9d-b810-0211f9d0e38b",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/14/25 19:53:56",
+ "timestampMillis": "1752533636429",
+ "status": {
+  "cmdId": "60e52bb6-26e7-463d-a1e2-5e1da14aaa72",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/14/25 19:53:56",
+ "timestampMillis": "1752533636453",
+ "report": {
+  "path": "F:/Xilinx\\hls_2024\\adder_new\\adder_new\\reports\\v++_compile_adder_new_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/14/25 19:53:56",
+ "timestampMillis": "1752533636453",
+ "report": {
+  "path": "F:/Xilinx\\hls_2024\\adder_new\\adder_new\\reports\\.db\\v++_compile_adder_new_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

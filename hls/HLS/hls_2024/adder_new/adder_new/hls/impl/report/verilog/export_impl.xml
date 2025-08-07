@@ -1,0 +1,140 @@
+<profile>
+  <RunData>
+    <RUN_TYPE>impl</RUN_TYPE>
+    <VIVADO_VERSION>v.2024.2</VIVADO_VERSION>
+    <ROOT_MODULE_CELL>bd_0_i/hls_inst</ROOT_MODULE_CELL>
+  </RunData>
+  <TimingReport>
+    <TargetClockPeriod>10.000</TargetClockPeriod>
+    <AchievedClockPeriod>NA</AchievedClockPeriod>
+    <CLOCK_NAME>ap_clk</CLOCK_NAME>
+    <CP_FINAL>NA</CP_FINAL>
+    <CP_ROUTE>NA</CP_ROUTE>
+    <CP_SYNTH>NA</CP_SYNTH>
+    <CP_TARGET>10.000</CP_TARGET>
+    <SLACK_FINAL>NA</SLACK_FINAL>
+    <SLACK_ROUTE>NA</SLACK_ROUTE>
+    <SLACK_SYNTH>NA</SLACK_SYNTH>
+    <TIMING_MET>NA</TIMING_MET>
+    <TNS_FINAL>NA</TNS_FINAL>
+    <TNS_ROUTE>NA</TNS_ROUTE>
+    <TNS_SYNTH>NA</TNS_SYNTH>
+    <WNS_FINAL>NA</WNS_FINAL>
+    <WNS_ROUTE>NA</WNS_ROUTE>
+    <WNS_SYNTH>NA</WNS_SYNTH>
+  </TimingReport>
+  <AreaReport>
+    <Resources>
+      <BRAM>0</BRAM>
+      <CLB>0</CLB>
+      <DSP>0</DSP>
+      <FF>61</FF>
+      <LATCH>0</LATCH>
+      <LUT>63</LUT>
+      <SLICE>22</SLICE>
+      <SRL>0</SRL>
+      <URAM>0</URAM>
+    </Resources>
+    <AvailableResources>
+      <BRAM>150</BRAM>
+      <CLB>0</CLB>
+      <DSP>120</DSP>
+      <FF>65200</FF>
+      <LUT>32600</LUT>
+      <SLICE>8150</SLICE>
+      <URAM>0</URAM>
+    </AvailableResources>
+  </AreaReport>
+  <RtlModules>
+    <RtlModule CELL="inst" DEPTH="0" IS_TOP="1" TYPE="function" MODULENAME="adder_new" DISPNAME="inst" RTLNAME="adder_new">
+      <SubModules count="1">BUS_A_s_axi_U</SubModules>
+      <Resources FF="61" LUT="63"/>
+    </RtlModule>
+    <RtlModule CELL="inst/BUS_A_s_axi_U" DEPTH="1" TYPE="resource" MODULENAME="BUS_A_s_axi" DISPNAME="BUS_A_s_axi_U" RTLNAME="adder_new_BUS_A_s_axi">
+      <Resources FF="61" LUT="63"/>
+      <BindNode BINDTYPE="adapter" BRAM="0" BUNDLEDNAME="BUS_A" DISPNAME="bind_adapter " DSP="0" ID="" IMPL="" LATENCY="" LOOP="" OPTYPE="" PRAGMA="" RTLNAME="BUS_A_s_axi_U" SOURCE="" STORAGESIZE="" STORAGESUBTYPE="s_axilite" STORAGEUSAGE="interface" URAM="0" VARIABLE=""/>
+    </RtlModule>
+  </RtlModules>
+  <TimingPaths>
+    <TPATH DATAPATH_DELAY="3.370" DATAPATH_LOGIC_DELAY="1.742" DATAPATH_NET_DELAY="1.628" ENDPOINT_PIN="BUS_A_s_axi_U/int_c_o_reg[7]/D" LOGIC_LEVELS="4" MAX_FANOUT="4" SLACK="" STARTPOINT_PIN="BUS_A_s_axi_U/int_b_reg[3]/C">
+      <CELL NAME="BUS_A_s_axi_U/int_b_reg[3]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="adder_new_BUS_A_s_axi.v" LINE_NUMBER="277" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="BUS_A_s_axi_U/int_c_o[7]_i_4" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="adder_new.v" LINE_NUMBER="119" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="BUS_A_s_axi_U/int_c_o[7]_i_8" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="adder_new.v" LINE_NUMBER="119" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="BUS_A_s_axi_U/int_c_o_reg[7]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="adder_new_BUS_A_s_axi.v" LINE_NUMBER="150" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="BUS_A_s_axi_U/int_c_o_reg[7]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="adder_new_BUS_A_s_axi.v" LINE_NUMBER="434" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <MODULE_INSTANCES>BUS_A_s_axi_U</MODULE_INSTANCES>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="3.325" DATAPATH_LOGIC_DELAY="1.733" DATAPATH_NET_DELAY="1.592" ENDPOINT_PIN="BUS_A_s_axi_U/int_c_o_reg[5]/D" LOGIC_LEVELS="5" MAX_FANOUT="4" SLACK="" STARTPOINT_PIN="BUS_A_s_axi_U/int_c_i_reg[2]/C">
+      <CELL NAME="BUS_A_s_axi_U/int_c_i_reg[2]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="adder_new_BUS_A_s_axi.v" LINE_NUMBER="278" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="BUS_A_s_axi_U/int_c_o[3]_i_2" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="adder_new.v" LINE_NUMBER="119" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="BUS_A_s_axi_U/int_c_o[3]_i_5" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="adder_new.v" LINE_NUMBER="119" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="BUS_A_s_axi_U/int_c_o_reg[3]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="adder_new_BUS_A_s_axi.v" LINE_NUMBER="150" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="BUS_A_s_axi_U/int_c_o_reg[7]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="adder_new_BUS_A_s_axi.v" LINE_NUMBER="150" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="BUS_A_s_axi_U/int_c_o_reg[5]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="adder_new_BUS_A_s_axi.v" LINE_NUMBER="434" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <MODULE_INSTANCES>BUS_A_s_axi_U</MODULE_INSTANCES>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="3.311" DATAPATH_LOGIC_DELAY="1.683" DATAPATH_NET_DELAY="1.628" ENDPOINT_PIN="BUS_A_s_axi_U/int_c_o_reg[6]/D" LOGIC_LEVELS="4" MAX_FANOUT="4" SLACK="" STARTPOINT_PIN="BUS_A_s_axi_U/int_b_reg[3]/C">
+      <CELL NAME="BUS_A_s_axi_U/int_b_reg[3]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="adder_new_BUS_A_s_axi.v" LINE_NUMBER="277" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="BUS_A_s_axi_U/int_c_o[7]_i_4" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="adder_new.v" LINE_NUMBER="119" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="BUS_A_s_axi_U/int_c_o[7]_i_8" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="adder_new.v" LINE_NUMBER="119" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="BUS_A_s_axi_U/int_c_o_reg[7]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="adder_new_BUS_A_s_axi.v" LINE_NUMBER="150" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="BUS_A_s_axi_U/int_c_o_reg[6]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="adder_new_BUS_A_s_axi.v" LINE_NUMBER="434" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <MODULE_INSTANCES>BUS_A_s_axi_U</MODULE_INSTANCES>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="3.214" DATAPATH_LOGIC_DELAY="1.622" DATAPATH_NET_DELAY="1.592" ENDPOINT_PIN="BUS_A_s_axi_U/int_c_o_reg[4]/D" LOGIC_LEVELS="5" MAX_FANOUT="4" SLACK="" STARTPOINT_PIN="BUS_A_s_axi_U/int_c_i_reg[2]/C">
+      <CELL NAME="BUS_A_s_axi_U/int_c_i_reg[2]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="adder_new_BUS_A_s_axi.v" LINE_NUMBER="278" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="BUS_A_s_axi_U/int_c_o[3]_i_2" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="adder_new.v" LINE_NUMBER="119" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="BUS_A_s_axi_U/int_c_o[3]_i_5" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="adder_new.v" LINE_NUMBER="119" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="BUS_A_s_axi_U/int_c_o_reg[3]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="adder_new_BUS_A_s_axi.v" LINE_NUMBER="150" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="BUS_A_s_axi_U/int_c_o_reg[7]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="adder_new_BUS_A_s_axi.v" LINE_NUMBER="150" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="BUS_A_s_axi_U/int_c_o_reg[4]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="adder_new_BUS_A_s_axi.v" LINE_NUMBER="434" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <MODULE_INSTANCES>BUS_A_s_axi_U</MODULE_INSTANCES>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="2.910" DATAPATH_LOGIC_DELAY="0.124" DATAPATH_NET_DELAY="2.786" ENDPOINT_PIN="BUS_A_s_axi_U/int_a_reg[4]/R" LOGIC_LEVELS="1" MAX_FANOUT="48" SLACK="" STARTPOINT_PIN="ap_rst_n">
+      <CELL NAME="BUS_A_s_axi_U/FSM_onehot_wstate[1]_i_1" PRIMITIVE_TYPE="LUT.others.LUT1" FILE_NAME="adder_new.v" LINE_NUMBER="128" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="BUS_A_s_axi_U/int_a_reg[4]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="adder_new_BUS_A_s_axi.v" LINE_NUMBER="276" MODULE_INSTNAME="BUS_A_s_axi_U" IS_FUNCINST="0"/>
+      <MODULE_INSTANCES>BUS_A_s_axi_U</MODULE_INSTANCES>
+    </TPATH>
+  </TimingPaths>
+  <VivadoReportFiles>
+    <ReportFile TYPE="design_analysis" PATH="verilog/report/adder_new_design_analysis_routed.rpt"/>
+    <ReportFile TYPE="failfast" PATH="verilog/report/adder_new_failfast_routed.rpt"/>
+    <ReportFile TYPE="power" PATH="verilog/report/adder_new_power_routed.rpt"/>
+    <ReportFile TYPE="status" PATH="verilog/report/adder_new_status_routed.rpt"/>
+    <ReportFile TYPE="timing" PATH="verilog/report/adder_new_timing_routed.rpt"/>
+    <ReportFile TYPE="timing_paths" PATH="verilog/report/adder_new_timing_paths_routed.rpt"/>
+    <ReportFile TYPE="utilization" PATH="verilog/report/adder_new_utilization_routed.rpt"/>
+    <ReportFile TYPE="utilization_hierarchical" PATH="verilog/report/adder_new_utilization_hierarchical_routed.rpt"/>
+  </VivadoReportFiles>
+  <GeneralInfo NAME="General Information">
+    <item NAME="Date" VALUE="Mon Jul 14 19:57:39 -0300 2025"/>
+    <item NAME="Version" VALUE="2024.2 (Build 5238294 on Nov  8 2024)"/>
+    <item NAME="Project" VALUE="adder_new"/>
+    <item NAME="Solution" VALUE="hls (Vivado IP Flow Target)"/>
+    <item NAME="Product family" VALUE="spartan7"/>
+    <item NAME="Target device" VALUE="xc7s50-csga324-1"/>
+  </GeneralInfo>
+  <RunOptions NAME="Run Constraints &amp; Options">
+    <General NAME="Design Constraints &amp; Options">
+      <item NAME="Place &amp; Route target clock" VALUE="10 ns"/>
+      <item NAME="C-Synthesis target clock" VALUE=""/>
+      <item NAME="C-Synthesis uncertainty" VALUE="27%"/>
+      <item NAME="config_export -ip_xdc_file" VALUE=""/>
+      <item NAME="config_export -ip_xdc_ooc_file" VALUE=""/>
+    </General>
+    <Syn NAME="RTL Synthesis Options">
+      <item NAME="config_export -vivado_synth_strategy" VALUE="default"/>
+      <item NAME="config_export -vivado_synth_design_args" VALUE="-directive sdx_optimization_effort_high"/>
+    </Syn>
+    <Impl NAME="Place &amp; Route Options">
+      <item NAME="config_export -vivado_impl_strategy" VALUE="default"/>
+      <item NAME="config_export -vivado_phys_opt" VALUE="auto"/>
+      <item NAME="config_export -vivado_pblock" VALUE=""/>
+    </Impl>
+    <Reporting NAME="Reporting Options">
+      <item NAME="config_export -vivado_report_level" VALUE="2"/>
+      <item NAME="config_export -vivado_max_timing_paths" VALUE="10"/>
+    </Reporting>
+  </RunOptions>
+</profile>
+

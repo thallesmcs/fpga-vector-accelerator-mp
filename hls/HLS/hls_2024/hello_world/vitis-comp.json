@@ -1,0 +1,12 @@
+{
+  "name": "hello_world",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "hello_world"
+  },
+  "template": "empty_hls_component"
+}

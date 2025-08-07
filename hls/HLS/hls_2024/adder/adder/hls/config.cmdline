@@ -1,0 +1,3 @@
+relativeroot=F:/Xilinx/projeto_hls/adder
+original_argv=--mode hls --impl --config F:\Xilinx\projeto_hls\adder\hls_config.cfg --work_dir adder 
+

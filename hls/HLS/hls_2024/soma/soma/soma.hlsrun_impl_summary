@@ -1,0 +1,268 @@
+<ENTRY>
+{
+ "thisFile": "D:/Projetos_HLS\\soma\\soma\\soma.hlsrun_impl_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "05/24/25 14:53:58",
+ "timestampMillis": "1748109238214",
+ "buildStep": {
+  "cmdId": "43e08f7c-7d3f-42e9-ba9b-80a392272858",
+  "name": "vitis-run",
+  "logFile": "D:/Projetos_HLS\\soma\\soma\\logs\\soma.steps.log",
+  "commandLine": "E:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --impl --config D:\\Projetos_HLS\\soma\\hls_config.cfg --work_dir soma ",
+  "args": [
+   "--mode",
+   "hls",
+   "--impl",
+   "--config",
+   "D:\\Projetos_HLS\\soma\\hls_config.cfg",
+   "--work_dir",
+   "soma"
+  ],
+  "iniFiles": [],
+  "cwd": "D:\\Projetos_HLS\\soma"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/24/25 14:53:58",
+ "timestampMillis": "1748109238214",
+ "status": {
+  "cmdId": "43e08f7c-7d3f-42e9-ba9b-80a392272858",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "05/24/25 14:54:00",
+ "timestampMillis": "1748109240961",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IMPL",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "soma",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "D:/Projetos_HLS\\soma\\soma.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "05/24/25 14:54:00",
+ "timestampMillis": "1748109240962",
+ "buildStep": {
+  "cmdId": "a1221fc0-5a5e-4708-aad2-e2b05fb84eac",
+  "name": "",
+  "logFile": "D:/Projetos_HLS\\soma\\soma\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\Projetos_HLS\\soma"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/24/25 14:54:00",
+ "timestampMillis": "1748109240962",
+ "status": {
+  "cmdId": "a1221fc0-5a5e-4708-aad2-e2b05fb84eac",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/24/25 14:54:00",
+ "timestampMillis": "1748109240963",
+ "report": {
+  "path": "D:/Projetos_HLS\\soma\\soma\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/24/25 14:54:00",
+ "timestampMillis": "1748109240963",
+ "report": {
+  "path": "D:/Projetos_HLS\\soma\\soma\\hls\\impl\\report\\verilog\\export_syn.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/24/25 14:54:00",
+ "timestampMillis": "1748109240963",
+ "report": {
+  "path": "D:/Projetos_HLS\\soma\\soma\\hls\\impl\\report\\verilog\\export_syn.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/24/25 14:54:00",
+ "timestampMillis": "1748109240963",
+ "report": {
+  "path": "D:/Projetos_HLS\\soma\\soma\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/24/25 14:54:00",
+ "timestampMillis": "1748109240963",
+ "report": {
+  "path": "D:/Projetos_HLS\\soma\\soma\\hls\\impl\\report\\verilog\\export_impl.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/24/25 14:54:00",
+ "timestampMillis": "1748109240963",
+ "report": {
+  "path": "D:/Projetos_HLS\\soma\\soma\\hls\\impl\\report\\verilog\\export_impl.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/24/25 14:56:20",
+ "timestampMillis": "1748109380289",
+ "report": {
+  "path": "D:/Projetos_HLS\\soma\\soma\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/24/25 14:56:20",
+ "timestampMillis": "1748109380289",
+ "report": {
+  "path": "D:/Projetos_HLS\\soma\\soma\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/24/25 14:56:20",
+ "timestampMillis": "1748109380290",
+ "status": {
+  "cmdId": "a1221fc0-5a5e-4708-aad2-e2b05fb84eac",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/24/25 14:56:20",
+ "timestampMillis": "1748109380364",
+ "status": {
+  "cmdId": "43e08f7c-7d3f-42e9-ba9b-80a392272858",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/24/25 14:56:20",
+ "timestampMillis": "1748109380364",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/24/25 14:56:20",
+ "timestampMillis": "1748109380364",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

@@ -1,0 +1,143 @@
+<profile>
+  <RunData>
+    <RUN_TYPE>synth</RUN_TYPE>
+    <VIVADO_VERSION>v.2024.2</VIVADO_VERSION>
+    <ROOT_MODULE_CELL>bd_0_i/hls_inst</ROOT_MODULE_CELL>
+  </RunData>
+  <TimingReport>
+    <TargetClockPeriod>10.000</TargetClockPeriod>
+    <AchievedClockPeriod>NA</AchievedClockPeriod>
+    <CLOCK_NAME>ap_clk</CLOCK_NAME>
+    <CP_FINAL>NA</CP_FINAL>
+    <CP_ROUTE>NA</CP_ROUTE>
+    <CP_SYNTH>NA</CP_SYNTH>
+    <CP_TARGET>10.000</CP_TARGET>
+    <SLACK_FINAL>NA</SLACK_FINAL>
+    <SLACK_ROUTE/>
+    <SLACK_SYNTH>NA</SLACK_SYNTH>
+    <TIMING_MET>NA</TIMING_MET>
+    <TNS_FINAL>0.000</TNS_FINAL>
+    <TNS_ROUTE>NA</TNS_ROUTE>
+    <TNS_SYNTH>0.000</TNS_SYNTH>
+    <WNS_FINAL>6.358</WNS_FINAL>
+    <WNS_ROUTE>NA</WNS_ROUTE>
+    <WNS_SYNTH>6.358</WNS_SYNTH>
+  </TimingReport>
+  <AreaReport>
+    <Resources>
+      <BRAM>0</BRAM>
+      <CLB>0</CLB>
+      <DSP>0</DSP>
+      <FF>0</FF>
+      <LATCH>0</LATCH>
+      <LUT>64</LUT>
+      <SRL>0</SRL>
+      <URAM>0</URAM>
+    </Resources>
+    <AvailableResources>
+      <BRAM>100</BRAM>
+      <CLB>0</CLB>
+      <DSP>66</DSP>
+      <FF>28800</FF>
+      <LUT>14400</LUT>
+      <URAM>0</URAM>
+    </AvailableResources>
+  </AreaReport>
+  <RtlModules>
+    <RtlModule CELL="inst" DEPTH="0" IS_TOP="1" TYPE="function" MODULENAME="top_function" DISPNAME="inst" RTLNAME="top_function">
+      <Resources LUT="64"/>
+    </RtlModule>
+  </RtlModules>
+  <TimingPaths>
+    <TPATH DATAPATH_DELAY="3.642" DATAPATH_LOGIC_DELAY="1.696" DATAPATH_NET_DELAY="1.946" ENDPOINT_PIN="output_soma[29]" LOGIC_LEVELS="9" MAX_FANOUT="1" SLACK="6.358" STARTPOINT_PIN="input_a_soma[1]">
+      <CELL NAME="output_soma[0]_INST_0_i_3" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[0]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[4]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[8]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[12]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[16]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[20]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[24]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[28]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="3.642" DATAPATH_LOGIC_DELAY="1.696" DATAPATH_NET_DELAY="1.946" ENDPOINT_PIN="output_subtracao[29]" LOGIC_LEVELS="9" MAX_FANOUT="1" SLACK="6.358" STARTPOINT_PIN="input_b_sub[1]">
+      <CELL NAME="output_subtracao[0]_INST_0_i_3" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="top_function.v" LINE_NUMBER="9"/>
+      <CELL NAME="output_subtracao[0]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="71"/>
+      <CELL NAME="output_subtracao[4]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="71"/>
+      <CELL NAME="output_subtracao[8]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="71"/>
+      <CELL NAME="output_subtracao[12]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="71"/>
+      <CELL NAME="output_subtracao[16]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="71"/>
+      <CELL NAME="output_subtracao[20]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="71"/>
+      <CELL NAME="output_subtracao[24]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="71"/>
+      <CELL NAME="output_subtracao[28]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="71"/>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="3.636" DATAPATH_LOGIC_DELAY="1.690" DATAPATH_NET_DELAY="1.946" ENDPOINT_PIN="output_soma[31]" LOGIC_LEVELS="9" MAX_FANOUT="1" SLACK="6.364" STARTPOINT_PIN="input_a_soma[1]">
+      <CELL NAME="output_soma[0]_INST_0_i_3" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[0]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[4]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[8]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[12]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[16]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[20]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[24]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[28]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="3.636" DATAPATH_LOGIC_DELAY="1.690" DATAPATH_NET_DELAY="1.946" ENDPOINT_PIN="output_subtracao[31]" LOGIC_LEVELS="9" MAX_FANOUT="1" SLACK="6.364" STARTPOINT_PIN="input_b_sub[1]">
+      <CELL NAME="output_subtracao[0]_INST_0_i_3" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="top_function.v" LINE_NUMBER="9"/>
+      <CELL NAME="output_subtracao[0]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="71"/>
+      <CELL NAME="output_subtracao[4]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="71"/>
+      <CELL NAME="output_subtracao[8]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="71"/>
+      <CELL NAME="output_subtracao[12]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="71"/>
+      <CELL NAME="output_subtracao[16]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="71"/>
+      <CELL NAME="output_subtracao[20]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="71"/>
+      <CELL NAME="output_subtracao[24]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="71"/>
+      <CELL NAME="output_subtracao[28]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="71"/>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="3.561" DATAPATH_LOGIC_DELAY="1.615" DATAPATH_NET_DELAY="1.946" ENDPOINT_PIN="output_soma[30]" LOGIC_LEVELS="9" MAX_FANOUT="1" SLACK="6.439" STARTPOINT_PIN="input_a_soma[1]">
+      <CELL NAME="output_soma[0]_INST_0_i_3" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[0]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[4]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[8]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[12]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[16]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[20]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[24]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+      <CELL NAME="output_soma[28]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="top_function.v" LINE_NUMBER="69"/>
+    </TPATH>
+  </TimingPaths>
+  <VivadoReportFiles>
+    <ReportFile TYPE="design_analysis" PATH="verilog/report/top_function_design_analysis_synth.rpt"/>
+    <ReportFile TYPE="failfast" PATH="verilog/report/top_function_failfast_synth.rpt"/>
+    <ReportFile TYPE="power" PATH="verilog/report/top_function_power_synth.rpt"/>
+    <ReportFile TYPE="timing" PATH="verilog/report/top_function_timing_synth.rpt"/>
+    <ReportFile TYPE="timing_paths" PATH="verilog/report/top_function_timing_paths_synth.rpt"/>
+    <ReportFile TYPE="utilization" PATH="verilog/report/top_function_utilization_synth.rpt"/>
+    <ReportFile TYPE="utilization_hierarchical" PATH="verilog/report/top_function_utilization_hierarchical_synth.rpt"/>
+  </VivadoReportFiles>
+  <GeneralInfo NAME="General Information">
+    <item NAME="Date" VALUE="Wed Jun 04 18:06:23 -0300 2025"/>
+    <item NAME="Version" VALUE="2024.2 (Build 5238294 on Nov  8 2024)"/>
+    <item NAME="Project" VALUE="add_sub"/>
+    <item NAME="Solution" VALUE="hls (Vivado IP Flow Target)"/>
+    <item NAME="Product family" VALUE="zynq"/>
+    <item NAME="Target device" VALUE="xc7z007s-clg400-1"/>
+  </GeneralInfo>
+  <RunOptions NAME="Run Constraints &amp; Options">
+    <General NAME="Design Constraints &amp; Options">
+      <item NAME="RTL Synthesis target clock" VALUE="10 ns"/>
+      <item NAME="C-Synthesis target clock" VALUE=""/>
+      <item NAME="C-Synthesis uncertainty" VALUE="27%"/>
+      <item NAME="config_export -ip_xdc_file" VALUE=""/>
+      <item NAME="config_export -ip_xdc_ooc_file" VALUE=""/>
+    </General>
+    <Syn NAME="RTL Synthesis Options">
+      <item NAME="config_export -vivado_synth_strategy" VALUE="default"/>
+      <item NAME="config_export -vivado_synth_design_args" VALUE="-directive sdx_optimization_effort_high"/>
+    </Syn>
+    <Reporting NAME="Reporting Options">
+      <item NAME="config_export -vivado_report_level" VALUE="2"/>
+      <item NAME="config_export -vivado_max_timing_paths" VALUE="10"/>
+    </Reporting>
+  </RunOptions>
+</profile>
+

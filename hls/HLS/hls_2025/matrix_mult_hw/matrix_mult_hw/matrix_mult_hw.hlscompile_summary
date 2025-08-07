@@ -1,0 +1,48 @@
+<ENTRY>
+{
+ "thisFile": "F:/Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_hw\\matrix_mult_hw.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "07/28/25 16:50:06",
+ "timestampMillis": "1753732206320",
+ "buildStep": {
+  "cmdId": "d639ba6b-ac6d-43f6-8b18-acd4fcc62fba",
+  "name": "v++",
+  "logFile": "F:/Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_hw\\logs\\matrix_mult_hw.steps.log",
+  "commandLine": "F:/Xilinx/2025.1/Vitis/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config F:\\Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\hls_config.cfg --work_dir matrix_mult_hw ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "F:\\Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\hls_config.cfg",
+   "--work_dir",
+   "matrix_mult_hw"
+  ],
+  "iniFiles": [
+   {
+    "path": "F:/Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\hls_config.cfg",
+    "content": "part=xc7s50csga324-1\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.file=matrix_mult_ip.cpp\nsyn.file=matrix_mult_ip.h\nsyn.top=matrix_mult_hw\ntb.file=tb_matrix_mult.cpp"
+   }
+  ],
+  "cwd": "F:\\Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/28/25 16:50:06",
+ "timestampMillis": "1753732206320",
+ "status": {
+  "cmdId": "d639ba6b-ac6d-43f6-8b18-acd4fcc62fba",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>

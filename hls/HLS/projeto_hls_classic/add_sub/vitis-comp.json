@@ -1,0 +1,12 @@
+{
+  "name": "add_sub",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "add_sub"
+  },
+  "template": "empty_hls_component"
+}

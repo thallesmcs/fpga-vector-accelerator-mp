@@ -1,0 +1,145 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x4EC52EB20DFC5578",
+      "device": "xc7z007sclg400-1",
+      "gen_directory": "../../../../project.gen/sources_1/bd/bd_0",
+      "name": "bd_0",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "hls_inst": ""
+    },
+    "interface_ports": {
+      "ap_ctrl": {
+        "mode": "Slave",
+        "vlnv_bus_definition": "xilinx.com:interface:acc_handshake:1.0",
+        "vlnv": "xilinx.com:interface:acc_handshake_rtl:1.0",
+        "port_maps": {
+          "done": {
+            "physical_name": "ap_ctrl_done",
+            "direction": "O"
+          },
+          "idle": {
+            "physical_name": "ap_ctrl_idle",
+            "direction": "O"
+          },
+          "ready": {
+            "physical_name": "ap_ctrl_ready",
+            "direction": "O"
+          },
+          "start": {
+            "physical_name": "ap_ctrl_start",
+            "direction": "I"
+          }
+        }
+      }
+    },
+    "ports": {
+      "A": {
+        "type": "data",
+        "direction": "I",
+        "left": "6",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "B": {
+        "type": "data",
+        "direction": "I",
+        "left": "6",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "C": {
+        "type": "data",
+        "direction": "O",
+        "left": "7",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "C_ap_vld": {
+        "direction": "O"
+      },
+      "ap_rst": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      }
+    },
+    "components": {
+      "hls_inst": {
+        "vlnv": "xilinx.com:hls:soma:1.0",
+        "ip_revision": "2114097414",
+        "xci_name": "bd_0_hls_inst_0",
+        "xci_path": "ip\\bd_0_hls_inst_0\\bd_0_hls_inst_0.xci",
+        "inst_hier_path": "hls_inst"
+      }
+    },
+    "interface_nets": {
+      "ap_ctrl_0_1": {
+        "interface_ports": [
+          "ap_ctrl",
+          "hls_inst/ap_ctrl"
+        ]
+      }
+    },
+    "nets": {
+      "A_0_1": {
+        "ports": [
+          "A",
+          "hls_inst/A"
+        ]
+      },
+      "B_0_1": {
+        "ports": [
+          "B",
+          "hls_inst/B"
+        ]
+      },
+      "ap_rst_0_1": {
+        "ports": [
+          "ap_rst",
+          "hls_inst/ap_rst"
+        ]
+      },
+      "hls_inst_C": {
+        "ports": [
+          "hls_inst/C",
+          "C"
+        ]
+      },
+      "hls_inst_C_ap_vld": {
+        "ports": [
+          "hls_inst/C_ap_vld",
+          "C_ap_vld"
+        ]
+      }
+    }
+  }
+}

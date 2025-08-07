@@ -1,0 +1,268 @@
+<ENTRY>
+{
+ "thisFile": "F:/Xilinx\\Project_HLS\\hls_2025\\soma_arrays_1600\\soma_arrays_1600\\soma_arrays_1600.hlsrun_impl_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "07/28/25 11:09:35",
+ "timestampMillis": "1753711775095",
+ "buildStep": {
+  "cmdId": "61f56580-8358-4f2e-b48c-4d4a82b5af0b",
+  "name": "vitis-run",
+  "logFile": "F:/Xilinx\\Project_HLS\\hls_2025\\soma_arrays_1600\\soma_arrays_1600\\logs\\soma_arrays_1600.steps.log",
+  "commandLine": "F:/Xilinx/2025.1/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --impl --config F:\\Xilinx\\Project_HLS\\hls_2025\\soma_arrays_1600\\hls_config.cfg --work_dir soma_arrays_1600 ",
+  "args": [
+   "--mode",
+   "hls",
+   "--impl",
+   "--config",
+   "F:\\Xilinx\\Project_HLS\\hls_2025\\soma_arrays_1600\\hls_config.cfg",
+   "--work_dir",
+   "soma_arrays_1600"
+  ],
+  "iniFiles": [],
+  "cwd": "F:\\Xilinx\\Project_HLS\\hls_2025\\soma_arrays_1600"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/28/25 11:09:35",
+ "timestampMillis": "1753711775095",
+ "status": {
+  "cmdId": "61f56580-8358-4f2e-b48c-4d4a82b5af0b",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "07/28/25 11:09:40",
+ "timestampMillis": "1753711780251",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IMPL",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "mult_hw_1600",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "F:/Xilinx\\Project_HLS\\hls_2025\\soma_arrays_1600\\array_1600.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "07/28/25 11:09:40",
+ "timestampMillis": "1753711780252",
+ "buildStep": {
+  "cmdId": "39389f63-f889-468c-8537-45a04aa055bc",
+  "name": "",
+  "logFile": "F:/Xilinx\\Project_HLS\\hls_2025\\soma_arrays_1600\\soma_arrays_1600\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "F:\\Xilinx\\Project_HLS\\hls_2025\\soma_arrays_1600"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/28/25 11:09:40",
+ "timestampMillis": "1753711780252",
+ "status": {
+  "cmdId": "39389f63-f889-468c-8537-45a04aa055bc",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/28/25 11:09:40",
+ "timestampMillis": "1753711780254",
+ "report": {
+  "path": "F:/Xilinx\\Project_HLS\\hls_2025\\soma_arrays_1600\\soma_arrays_1600\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/28/25 11:09:40",
+ "timestampMillis": "1753711780254",
+ "report": {
+  "path": "F:/Xilinx\\Project_HLS\\hls_2025\\soma_arrays_1600\\soma_arrays_1600\\hls\\impl\\report\\verilog\\export_syn.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/28/25 11:09:40",
+ "timestampMillis": "1753711780255",
+ "report": {
+  "path": "F:/Xilinx\\Project_HLS\\hls_2025\\soma_arrays_1600\\soma_arrays_1600\\hls\\impl\\report\\verilog\\export_syn.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/28/25 11:09:40",
+ "timestampMillis": "1753711780255",
+ "report": {
+  "path": "F:/Xilinx\\Project_HLS\\hls_2025\\soma_arrays_1600\\soma_arrays_1600\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/28/25 11:09:40",
+ "timestampMillis": "1753711780256",
+ "report": {
+  "path": "F:/Xilinx\\Project_HLS\\hls_2025\\soma_arrays_1600\\soma_arrays_1600\\hls\\impl\\report\\verilog\\export_impl.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/28/25 11:09:40",
+ "timestampMillis": "1753711780256",
+ "report": {
+  "path": "F:/Xilinx\\Project_HLS\\hls_2025\\soma_arrays_1600\\soma_arrays_1600\\hls\\impl\\report\\verilog\\export_impl.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/28/25 11:13:25",
+ "timestampMillis": "1753712005372",
+ "report": {
+  "path": "F:/Xilinx\\Project_HLS\\hls_2025\\soma_arrays_1600\\soma_arrays_1600\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/28/25 11:13:25",
+ "timestampMillis": "1753712005372",
+ "report": {
+  "path": "F:/Xilinx\\Project_HLS\\hls_2025\\soma_arrays_1600\\soma_arrays_1600\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/28/25 11:13:25",
+ "timestampMillis": "1753712005373",
+ "status": {
+  "cmdId": "39389f63-f889-468c-8537-45a04aa055bc",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/28/25 11:13:25",
+ "timestampMillis": "1753712005502",
+ "status": {
+  "cmdId": "61f56580-8358-4f2e-b48c-4d4a82b5af0b",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/28/25 11:13:25",
+ "timestampMillis": "1753712005502",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/28/25 11:13:25",
+ "timestampMillis": "1753712005503",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

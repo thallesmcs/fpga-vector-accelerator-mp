@@ -1,0 +1,3 @@
+relativeroot=D:/Projetos_HLS/soma
+original_argv=--mode hls --impl --config D:\Projetos_HLS\soma\hls_config.cfg --work_dir soma 
+

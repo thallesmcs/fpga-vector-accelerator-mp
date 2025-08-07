@@ -1,0 +1,12 @@
+{
+  "name": "soma_arrays_200",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "soma_arrays_200"
+  },
+  "useSysrootToolchain": false
+}

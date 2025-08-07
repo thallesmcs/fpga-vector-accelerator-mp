@@ -1,0 +1,3 @@
+relativeroot=F:/Xilinx/projeto_hls/add_sub
+original_argv=--mode hls --impl --config F:\Xilinx\projeto_hls\add_sub\hls_config.cfg --work_dir add_sub 
+

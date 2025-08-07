@@ -1,0 +1,159 @@
+<ENTRY>
+{
+ "thisFile": "F:/Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_hw\\matrix_mult_hw.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "07/16/25 15:34:02",
+ "timestampMillis": "1752690842473",
+ "buildStep": {
+  "cmdId": "250e746d-ae78-4234-862f-4320026c4f1c",
+  "name": "vitis-run",
+  "logFile": "F:/Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_hw\\logs\\matrix_mult_hw.steps.log",
+  "commandLine": "F:/Xilinx/2025.1/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config F:\\Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_hw\\hls-debug.cfg --config F:\\Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\hls_config.cfg --work_dir matrix_mult_hw ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "F:\\Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_hw\\hls-debug.cfg",
+   "--config",
+   "F:\\Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\hls_config.cfg",
+   "--work_dir",
+   "matrix_mult_hw"
+  ],
+  "iniFiles": [],
+  "cwd": "F:\\Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/16/25 15:34:02",
+ "timestampMillis": "1752690842473",
+ "status": {
+  "cmdId": "250e746d-ae78-4234-862f-4320026c4f1c",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "07/16/25 15:34:07",
+ "timestampMillis": "1752690847536",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "matrix_mult_hw",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "F:/Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_ip.cpp",
+     "F:/Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_ip.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "07/16/25 15:34:07",
+ "timestampMillis": "1752690847537",
+ "buildStep": {
+  "cmdId": "b59e964a-e395-4894-a1a4-c3b97609827b",
+  "name": "",
+  "logFile": "F:/Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_hw\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "F:\\Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/16/25 15:34:07",
+ "timestampMillis": "1752690847538",
+ "status": {
+  "cmdId": "b59e964a-e395-4894-a1a4-c3b97609827b",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/16/25 15:34:08",
+ "timestampMillis": "1752690848745",
+ "status": {
+  "cmdId": "b59e964a-e395-4894-a1a4-c3b97609827b",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/16/25 15:34:08",
+ "timestampMillis": "1752690848871",
+ "status": {
+  "cmdId": "250e746d-ae78-4234-862f-4320026c4f1c",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/16/25 15:34:08",
+ "timestampMillis": "1752690848872",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/16/25 15:34:08",
+ "timestampMillis": "1752690848872",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

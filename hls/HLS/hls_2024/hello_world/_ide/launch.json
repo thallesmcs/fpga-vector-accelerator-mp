@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "hello_world",
+      "type": "gdb",
+      "request": "launch",
+      "target": "${workspaceFolder}\\hello_world\\hello_world\\hls\\csim\\build\\csim.exe",
+      "cwd": "${workspaceFolder}\\hello_world\\hello_world\\hls\\csim\\build",
+      "gdbpath": "${env:XILINX_HLS}\\tps\\win64\\msys64\\mingw64\\bin\\gdb.exe",
+      "debugger_args": [
+        "--init-command=${env:XILINX_HLS}\\tps\\win64\\msys64\\mingw64\\bin\\gdbinit"
+      ],
+      "valuesFormatting": "prettyPrinters",
+      "env": {
+        "PATH": "E:\\Xilinx\\Vitis\\2024.2\\win64\\tools\\fpo_v7_1;E:\\Xilinx\\Vitis\\2024.2\\win64\\tools\\fft_v9_1;E:\\Xilinx\\Vitis\\2024.2\\win64\\tools\\fir_v7_0;E:\\Xilinx\\Vitis\\2024.2\\win64\\tools\\dds_v6_0;E:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt\\bin"
+      }
+    }
+  ]
+}

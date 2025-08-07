@@ -1,0 +1,89 @@
+<profile>
+<RunData>
+  <RUN_TYPE>impl</RUN_TYPE>
+  <VIVADO_VERSION>v.2024.2</VIVADO_VERSION>
+  <ROOT_MODULE_CELL>bd_0_i/hls_inst</ROOT_MODULE_CELL>
+</RunData>
+<TimingReport>
+  <TargetClockPeriod>20.000</TargetClockPeriod>
+  <AchievedClockPeriod>NA</AchievedClockPeriod>
+  <CLOCK_NAME>ap_clk</CLOCK_NAME>
+  <CP_FINAL>NA</CP_FINAL>
+  <CP_ROUTE>NA</CP_ROUTE>
+  <CP_SYNTH>NA</CP_SYNTH>
+  <CP_TARGET>20.000</CP_TARGET>
+  <SLACK_FINAL>NA</SLACK_FINAL>
+  <SLACK_ROUTE>NA</SLACK_ROUTE>
+  <SLACK_SYNTH>NA</SLACK_SYNTH>
+  <TIMING_MET>NA</TIMING_MET>
+  <TNS_FINAL>0.000</TNS_FINAL>
+  <TNS_ROUTE>0.000</TNS_ROUTE>
+  <TNS_SYNTH>0.000</TNS_SYNTH>
+  <WNS_FINAL>17.045</WNS_FINAL>
+  <WNS_ROUTE>17.045</WNS_ROUTE>
+  <WNS_SYNTH>17.060</WNS_SYNTH>
+</TimingReport>
+<AreaReport>
+  <Resources>
+    <BRAM>0</BRAM>
+    <CLB>0</CLB>
+    <DSP>0</DSP>
+    <FF>0</FF>
+    <LATCH>0</LATCH>
+    <LUT>8</LUT>
+    <SLICE>2</SLICE>
+    <SRL>0</SRL>
+    <URAM>0</URAM>
+  </Resources>
+  <AvailableResources>
+    <BRAM>100</BRAM>
+    <CLB>0</CLB>
+    <DSP>66</DSP>
+    <FF>28800</FF>
+    <LUT>14400</LUT>
+    <SLICE>4400</SLICE>
+    <URAM>0</URAM>
+  </AvailableResources>
+</AreaReport>
+<RtlModules>
+  <RtlModule CELL="inst" DEPTH="0" FILE_NAME="bd_0_hls_inst_0.v" ORIG_REF_NAME="adder" TOP_CELL="bd_0_i/hls_inst/inst">
+    <Resources LUT="8" LogicLUT="8"/>
+  </RtlModule>
+</RtlModules>
+<TimingPaths>
+  <TPATH DATAPATH_DELAY="2.955" DATAPATH_LOGIC_DELAY="1.008" DATAPATH_NET_DELAY="1.947" ENDPOINT_PIN="c[5]" LOGIC_LEVELS="3" MAX_FANOUT="1" SLACK="17.045" STARTPOINT_PIN="a[1]">
+    <CELL NAME="bd_0_i/hls_inst/inst/c[0]_INST_0_i_3" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="adder.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/c[0]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="adder.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/c[4]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="adder.v" LINE_NUMBER="52"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="2.934" DATAPATH_LOGIC_DELAY="0.987" DATAPATH_NET_DELAY="1.947" ENDPOINT_PIN="c[7]" LOGIC_LEVELS="3" MAX_FANOUT="1" SLACK="17.066" STARTPOINT_PIN="a[1]">
+    <CELL NAME="bd_0_i/hls_inst/inst/c[0]_INST_0_i_3" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="adder.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/c[0]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="adder.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/c[4]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="adder.v" LINE_NUMBER="52"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="2.860" DATAPATH_LOGIC_DELAY="0.913" DATAPATH_NET_DELAY="1.947" ENDPOINT_PIN="c[6]" LOGIC_LEVELS="3" MAX_FANOUT="1" SLACK="17.140" STARTPOINT_PIN="a[1]">
+    <CELL NAME="bd_0_i/hls_inst/inst/c[0]_INST_0_i_3" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="adder.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/c[0]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="adder.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/c[4]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="adder.v" LINE_NUMBER="52"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="2.843" DATAPATH_LOGIC_DELAY="0.896" DATAPATH_NET_DELAY="1.947" ENDPOINT_PIN="c[4]" LOGIC_LEVELS="3" MAX_FANOUT="1" SLACK="17.157" STARTPOINT_PIN="a[1]">
+    <CELL NAME="bd_0_i/hls_inst/inst/c[0]_INST_0_i_3" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="adder.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/c[0]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="adder.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/c[4]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="adder.v" LINE_NUMBER="52"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="2.710" DATAPATH_LOGIC_DELAY="0.764" DATAPATH_NET_DELAY="1.946" ENDPOINT_PIN="c[3]" LOGIC_LEVELS="2" MAX_FANOUT="1" SLACK="17.290" STARTPOINT_PIN="a[1]">
+    <CELL NAME="bd_0_i/hls_inst/inst/c[0]_INST_0_i_3" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="adder.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/c[0]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="adder.v" LINE_NUMBER="52"/>
+  </TPATH>
+</TimingPaths>
+<VivadoReportFiles>
+  <ReportFile TYPE="design_analysis" PATH="verilog/report/adder_design_analysis_routed.rpt"/>
+  <ReportFile TYPE="failfast" PATH="verilog/report/adder_failfast_routed.rpt"/>
+  <ReportFile TYPE="power" PATH="verilog/report/adder_power_routed.rpt"/>
+  <ReportFile TYPE="status" PATH="verilog/report/adder_status_routed.rpt"/>
+  <ReportFile TYPE="timing" PATH="verilog/report/adder_timing_routed.rpt"/>
+  <ReportFile TYPE="timing_paths" PATH="verilog/report/adder_timing_paths_routed.rpt"/>
+  <ReportFile TYPE="utilization" PATH="verilog/report/adder_utilization_routed.rpt"/>
+  <ReportFile TYPE="utilization_hierarchical" PATH="verilog/report/adder_utilization_hierarchical_routed.rpt"/>
+</VivadoReportFiles>
+</profile>

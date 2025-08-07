@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "matrix_mult_hw",
+      "type": "gdb",
+      "request": "launch",
+      "target": "${workspaceFolder}\\matrix_mult_hw\\matrix_mult_hw\\hls\\csim\\build\\csim.exe",
+      "cwd": "${workspaceFolder}\\matrix_mult_hw\\matrix_mult_hw\\hls\\csim\\build",
+      "gdbpath": "${env:XILINX_HLS}\\tps\\win64\\msys64\\mingw64\\bin\\gdb.exe",
+      "debugger_args": [
+        "--init-command=${env:XILINX_HLS}\\tps\\win64\\msys64\\mingw64\\bin\\gdbinit"
+      ],
+      "valuesFormatting": "prettyPrinters",
+      "env": {
+        "PATH": "F:\\Xilinx\\2025.1\\Vitis\\win64\\tools\\fpo_v7_1;F:\\Xilinx\\2025.1\\Vitis\\win64\\tools\\fft_v9_1;F:\\Xilinx\\2025.1\\Vitis\\win64\\tools\\fir_v7_0;F:\\Xilinx\\2025.1\\Vitis\\win64\\tools\\dds_v6_0;F:\\Xilinx\\2025.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt\\bin;${env:PATH}"
+      }
+    }
+  ]
+}

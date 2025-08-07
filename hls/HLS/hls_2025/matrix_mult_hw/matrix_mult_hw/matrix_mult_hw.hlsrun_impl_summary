@@ -1,0 +1,269 @@
+<ENTRY>
+{
+ "thisFile": "F:/Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_hw\\matrix_mult_hw.hlsrun_impl_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "07/16/25 15:35:58",
+ "timestampMillis": "1752690958738",
+ "buildStep": {
+  "cmdId": "834475e4-6e72-4c31-a577-8b752919fe25",
+  "name": "vitis-run",
+  "logFile": "F:/Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_hw\\logs\\matrix_mult_hw.steps.log",
+  "commandLine": "F:/Xilinx/2025.1/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --impl --config F:\\Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\hls_config.cfg --work_dir matrix_mult_hw ",
+  "args": [
+   "--mode",
+   "hls",
+   "--impl",
+   "--config",
+   "F:\\Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\hls_config.cfg",
+   "--work_dir",
+   "matrix_mult_hw"
+  ],
+  "iniFiles": [],
+  "cwd": "F:\\Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/16/25 15:35:58",
+ "timestampMillis": "1752690958738",
+ "status": {
+  "cmdId": "834475e4-6e72-4c31-a577-8b752919fe25",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "07/16/25 15:36:03",
+ "timestampMillis": "1752690963823",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IMPL",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "matrix_mult_hw",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "F:/Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_ip.cpp",
+     "F:/Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_ip.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "07/16/25 15:36:03",
+ "timestampMillis": "1752690963823",
+ "buildStep": {
+  "cmdId": "609e57ae-89be-46e8-bfa4-96fe521188f7",
+  "name": "",
+  "logFile": "F:/Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_hw\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "F:\\Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/16/25 15:36:03",
+ "timestampMillis": "1752690963824",
+ "status": {
+  "cmdId": "609e57ae-89be-46e8-bfa4-96fe521188f7",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/16/25 15:36:03",
+ "timestampMillis": "1752690963825",
+ "report": {
+  "path": "F:/Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_hw\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/16/25 15:36:03",
+ "timestampMillis": "1752690963825",
+ "report": {
+  "path": "F:/Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_hw\\hls\\impl\\report\\verilog\\export_syn.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/16/25 15:36:03",
+ "timestampMillis": "1752690963826",
+ "report": {
+  "path": "F:/Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_hw\\hls\\impl\\report\\verilog\\export_syn.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/16/25 15:36:03",
+ "timestampMillis": "1752690963826",
+ "report": {
+  "path": "F:/Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_hw\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/16/25 15:36:03",
+ "timestampMillis": "1752690963826",
+ "report": {
+  "path": "F:/Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_hw\\hls\\impl\\report\\verilog\\export_impl.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/16/25 15:36:03",
+ "timestampMillis": "1752690963827",
+ "report": {
+  "path": "F:/Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_hw\\hls\\impl\\report\\verilog\\export_impl.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/16/25 15:40:41",
+ "timestampMillis": "1752691241536",
+ "report": {
+  "path": "F:/Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_hw\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/16/25 15:40:41",
+ "timestampMillis": "1752691241537",
+ "report": {
+  "path": "F:/Xilinx\\Project_HLS\\hls_2025\\matrix_mult_hw\\matrix_mult_hw\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/16/25 15:40:41",
+ "timestampMillis": "1752691241537",
+ "status": {
+  "cmdId": "609e57ae-89be-46e8-bfa4-96fe521188f7",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/16/25 15:40:41",
+ "timestampMillis": "1752691241707",
+ "status": {
+  "cmdId": "834475e4-6e72-4c31-a577-8b752919fe25",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/16/25 15:40:41",
+ "timestampMillis": "1752691241707",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/16/25 15:40:41",
+ "timestampMillis": "1752691241707",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

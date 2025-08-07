@@ -1,0 +1,112 @@
+<profile>
+  <RunData>
+    <RUN_TYPE>synth</RUN_TYPE>
+    <VIVADO_VERSION>v.2024.2</VIVADO_VERSION>
+    <ROOT_MODULE_CELL>bd_0_i/hls_inst</ROOT_MODULE_CELL>
+  </RunData>
+  <TimingReport>
+    <TargetClockPeriod>10.000</TargetClockPeriod>
+    <AchievedClockPeriod>NA</AchievedClockPeriod>
+    <CLOCK_NAME>ap_clk</CLOCK_NAME>
+    <CP_FINAL>NA</CP_FINAL>
+    <CP_ROUTE>NA</CP_ROUTE>
+    <CP_SYNTH>NA</CP_SYNTH>
+    <CP_TARGET>10.000</CP_TARGET>
+    <SLACK_FINAL>NA</SLACK_FINAL>
+    <SLACK_ROUTE/>
+    <SLACK_SYNTH>NA</SLACK_SYNTH>
+    <TIMING_MET>NA</TIMING_MET>
+    <TNS_FINAL>0.000</TNS_FINAL>
+    <TNS_ROUTE>NA</TNS_ROUTE>
+    <TNS_SYNTH>0.000</TNS_SYNTH>
+    <WNS_FINAL>7.060</WNS_FINAL>
+    <WNS_ROUTE>NA</WNS_ROUTE>
+    <WNS_SYNTH>7.060</WNS_SYNTH>
+  </TimingReport>
+  <AreaReport>
+    <Resources>
+      <BRAM>0</BRAM>
+      <CLB>0</CLB>
+      <DSP>0</DSP>
+      <FF>0</FF>
+      <LATCH>0</LATCH>
+      <LUT>7</LUT>
+      <SRL>0</SRL>
+      <URAM>0</URAM>
+    </Resources>
+    <AvailableResources>
+      <BRAM>100</BRAM>
+      <CLB>0</CLB>
+      <DSP>66</DSP>
+      <FF>28800</FF>
+      <LUT>14400</LUT>
+      <URAM>0</URAM>
+    </AvailableResources>
+  </AreaReport>
+  <RtlModules>
+    <RtlModule CELL="inst" DEPTH="0" IS_TOP="1" TYPE="function" MODULENAME="soma" DISPNAME="inst" RTLNAME="soma">
+      <Resources LUT="7"/>
+    </RtlModule>
+  </RtlModules>
+  <TimingPaths>
+    <TPATH DATAPATH_DELAY="2.940" DATAPATH_LOGIC_DELAY="0.994" DATAPATH_NET_DELAY="1.946" ENDPOINT_PIN="C[5]" LOGIC_LEVELS="3" MAX_FANOUT="1" SLACK="7.060" STARTPOINT_PIN="A[1]">
+      <CELL NAME="C[0]_INST_0_i_3" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="soma.v" LINE_NUMBER="48"/>
+      <CELL NAME="C[0]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="soma.v" LINE_NUMBER="48"/>
+      <CELL NAME="C[4]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="soma.v" LINE_NUMBER="48"/>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="2.934" DATAPATH_LOGIC_DELAY="0.988" DATAPATH_NET_DELAY="1.946" ENDPOINT_PIN="C[7]" LOGIC_LEVELS="3" MAX_FANOUT="1" SLACK="7.066" STARTPOINT_PIN="A[1]">
+      <CELL NAME="C[0]_INST_0_i_3" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="soma.v" LINE_NUMBER="48"/>
+      <CELL NAME="C[0]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="soma.v" LINE_NUMBER="48"/>
+      <CELL NAME="C[4]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="soma.v" LINE_NUMBER="48"/>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="2.859" DATAPATH_LOGIC_DELAY="0.913" DATAPATH_NET_DELAY="1.946" ENDPOINT_PIN="C[6]" LOGIC_LEVELS="3" MAX_FANOUT="1" SLACK="7.141" STARTPOINT_PIN="A[1]">
+      <CELL NAME="C[0]_INST_0_i_3" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="soma.v" LINE_NUMBER="48"/>
+      <CELL NAME="C[0]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="soma.v" LINE_NUMBER="48"/>
+      <CELL NAME="C[4]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="soma.v" LINE_NUMBER="48"/>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="2.835" DATAPATH_LOGIC_DELAY="0.889" DATAPATH_NET_DELAY="1.946" ENDPOINT_PIN="C[4]" LOGIC_LEVELS="3" MAX_FANOUT="1" SLACK="7.165" STARTPOINT_PIN="A[1]">
+      <CELL NAME="C[0]_INST_0_i_3" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="soma.v" LINE_NUMBER="48"/>
+      <CELL NAME="C[0]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="soma.v" LINE_NUMBER="48"/>
+      <CELL NAME="C[4]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="soma.v" LINE_NUMBER="48"/>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="2.713" DATAPATH_LOGIC_DELAY="0.767" DATAPATH_NET_DELAY="1.946" ENDPOINT_PIN="C[3]" LOGIC_LEVELS="2" MAX_FANOUT="1" SLACK="7.287" STARTPOINT_PIN="A[1]">
+      <CELL NAME="C[0]_INST_0_i_3" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="soma.v" LINE_NUMBER="48"/>
+      <CELL NAME="C[0]_INST_0" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="soma.v" LINE_NUMBER="48"/>
+    </TPATH>
+  </TimingPaths>
+  <VivadoReportFiles>
+    <ReportFile TYPE="design_analysis" PATH="verilog/report/soma_design_analysis_synth.rpt"/>
+    <ReportFile TYPE="failfast" PATH="verilog/report/soma_failfast_synth.rpt"/>
+    <ReportFile TYPE="power" PATH="verilog/report/soma_power_synth.rpt"/>
+    <ReportFile TYPE="timing" PATH="verilog/report/soma_timing_synth.rpt"/>
+    <ReportFile TYPE="timing_paths" PATH="verilog/report/soma_timing_paths_synth.rpt"/>
+    <ReportFile TYPE="utilization" PATH="verilog/report/soma_utilization_synth.rpt"/>
+    <ReportFile TYPE="utilization_hierarchical" PATH="verilog/report/soma_utilization_hierarchical_synth.rpt"/>
+  </VivadoReportFiles>
+  <GeneralInfo NAME="General Information">
+    <item NAME="Date" VALUE="Sat May 24 14:56:20 -0300 2025"/>
+    <item NAME="Version" VALUE="2024.2 (Build 5238294 on Nov  8 2024)"/>
+    <item NAME="Project" VALUE="soma"/>
+    <item NAME="Solution" VALUE="hls (Vivado IP Flow Target)"/>
+    <item NAME="Product family" VALUE="zynq"/>
+    <item NAME="Target device" VALUE="xc7z007s-clg400-1"/>
+  </GeneralInfo>
+  <RunOptions NAME="Run Constraints &amp; Options">
+    <General NAME="Design Constraints &amp; Options">
+      <item NAME="RTL Synthesis target clock" VALUE="10 ns"/>
+      <item NAME="C-Synthesis target clock" VALUE=""/>
+      <item NAME="C-Synthesis uncertainty" VALUE="27%"/>
+      <item NAME="config_export -ip_xdc_file" VALUE=""/>
+      <item NAME="config_export -ip_xdc_ooc_file" VALUE=""/>
+    </General>
+    <Syn NAME="RTL Synthesis Options">
+      <item NAME="config_export -vivado_synth_strategy" VALUE="default"/>
+      <item NAME="config_export -vivado_synth_design_args" VALUE="-directive sdx_optimization_effort_high"/>
+    </Syn>
+    <Reporting NAME="Reporting Options">
+      <item NAME="config_export -vivado_report_level" VALUE="2"/>
+      <item NAME="config_export -vivado_max_timing_paths" VALUE="10"/>
+    </Reporting>
+  </RunOptions>
+</profile>
+
