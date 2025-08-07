@@ -1,3 +1,0 @@
-relativeroot=F:/Xilinx/hls_2024/adder_new
-original_argv=--mode hls --impl --config F:\Xilinx\hls_2024\adder_new\hls_config.cfg --work_dir adder_new 
-

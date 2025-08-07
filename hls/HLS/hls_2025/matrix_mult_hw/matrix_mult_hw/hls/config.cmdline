@@ -1,3 +1,0 @@
-relativeroot=F:/Xilinx/Project_HLS/hls_2025/matrix_mult_hw
-original_argv=-c --mode hls --config F:\Xilinx\Project_HLS\hls_2025\matrix_mult_hw\hls_config.cfg --work_dir matrix_mult_hw 
-

@@ -1,3 +1,0 @@
-[submodule "hls"]
-	path = hls
-	url = https://github.com/thallesmcs/Vitis_HLS.git
