@@ -8,11 +8,14 @@ Esta aplicação em C verifica o funcionamento do acelerador de hardware para mu
 
 -   **Processador:** Esta aplicação foi desenvolvida para rodar em um processador **Microblaze**.
 -   **Acelerador:** Requer que o design de hardware contenha o IP de multiplicação de vetores gerado pelo HLS.
+-   **AXI Timer:** Esta aplicação utiliza IP aberta da xilinx para comparar o tempo de execução.
 
 #### Plataforma Alvo
 
 Esta aplicação foi testada com a definição de hardware localizada em:
-`../../platforms/soma_arrays_50_1600/design_arrays_wrapper.xsa`
+`../../platforms/design_arrays_wrapper.xsa`
+
+Abra no Vitis (2025.1 ou compatível), selecione a plataforma `.xsa` acima, compile e execute no MicroBlaze.
 
 ## Obs:
 
