@@ -2,9 +2,21 @@
 
 ## Acelerador de Vetores em FPGA
 
+Este repositório contém um design de aceleração para multiplicação de vetores em FPGA, integrando:
+
+- IP de multiplicação de vetores gerado com Vitis HLS (submódulo `hls`), com variantes 50×50 até 1600×1600 e uma variante adicional 1000×1000
+- Projeto de hardware no Vivado 2025.1 com MicroBlaze, interconexões AXI e IP AXI Timer
+- Aplicação de teste em C para validar o acelerador via MicroBlaze (logs via UART)
+
 ![Arquitetura do sistema](docs/images/arq_viv.png)
 
-Navegação rápida: [Estrutura](#estrutura) | [Requisitos](#requisitos) | [Como clonar](#clonar) | [Fluxo resumido](#fluxo) | [Observações](#observacoes)
+## Navegação rápida
+
+- [Estrutura](#estrutura)
+- [Requisitos](#requisitos)
+- [Como clonar](#clonar)
+- [Fluxo resumido](#fluxo)
+- [Observações importantes](#observacoes)
 
 ## Estrutura do repositório <a id="estrutura"></a>
 - `Hardware/`: projeto Vivado (`soma_arrays_50_1600.xpr`), BD e constraints. Veja `Hardware/README.md`.
