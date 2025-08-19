@@ -1,4 +1,4 @@
-<a id="topo"></a>
+<!-- <a id="topo"></a> -->
 # Hardware (Vivado)
 
 - Projeto: `soma_arrays_50_1600.xpr`
@@ -12,7 +12,8 @@ SoC baseado em MicroBlaze com um IP HLS de multiplicação de vetores, conectado
 
 ### Variantes de IP (HLS)
 - IPs gerados para tamanhos: 50×50, 100×100, 200×200, 400×400, 800×800, 1600×1600 e uma variante adicional 1000×1000.
-- As variantes residem no submódulo `hls/` (não editar aqui). O projeto atual utiliza a variante 1600×1600 (vide drivers e nomes como `xmult_hw_1600` no Software).
+- As variantes residem no submódulo `hls/` (não editar aqui). Verifique no Software/README.md para funcionamento dentro da aplicação.
+ <!-- O projeto atual utiliza a variante 1600×1600 (drivers e nomes como `xmult_hw_1600` no Software, verifique Software/README.md). -->
 
 ## Passos
 - Abra o projeto no Vivado (`Hardware/soma_arrays_50_1600.xpr`).
@@ -23,4 +24,4 @@ SoC baseado em MicroBlaze com um IP HLS de multiplicação de vetores, conectado
 ## Observações
 - IPs de aceleração vêm do submódulo `hls/`. Ao atualizar um IP, reintegre-o no Vivado e regenere o bitstream.
 
-[Voltar ao topo](#topo)
+<!-- [Voltar ao topo](#topo) -->
