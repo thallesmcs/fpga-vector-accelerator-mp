@@ -15,7 +15,7 @@ Para compilar e executar a aplicação de teste no Vitis IDE, siga estes passos:
 
 2.  **Criar Plataforma:** No Vitis, crie um novo **Projeto de Plataforma (Platform Project)** utilizando o arquivo `.xsa` como base.
 
-3.  **Criar Aplicação:** Crie ou importe um **Projeto de Aplicação (Application Project)** a partir do código-fonte localizado em `soma_arrays_50_1600_app/`. Associe esta aplicação à plataforma criada no passo anterior.
+3.  **Criar Aplicação:** Crie ou importe um **Projeto de Aplicação (Application Project)** a partir do código-fonte localizado em `soma_arrays_50_1600_app/`. Associe esta aplicação à plataforma criada no passo anterior. O template **Hello World** pode ser utilizado como base da aplicação no Vitis.
 
 4.  **Compilar e Executar:** Compile (Build) o projeto e execute-o no hardware alvo (Run as -> Launch Hardware). Monitore a saída na console serial (UART).
 
