@@ -20,7 +20,7 @@ Observação: a arquitetura foi implementada com diferentes IPs HLS para tamanho
 - FPGA alvo: Xilinx Spartan-7 XC7S50-CSGA324
 - Vivado: 2025.1
 - Vitis HLS: 2024.2, 2025.1 e Classic
-- Vitis (SDK): 2025.1
+- Vitis IDE: 2025.1
 
 <!-- [Voltar ao topo](#topo) -->
 
