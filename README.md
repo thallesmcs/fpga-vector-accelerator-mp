@@ -1,6 +1,6 @@
 <a id="topo"></a>
 
-# Acelerador de Vetores em FPGA — Reprodutibilidade e Fluxo
+## Acelerador de Vetores em FPGA
 
 ![Arquitetura do sistema](docs/images/arq_viv.png)
 
@@ -13,24 +13,24 @@ Navegação rápida: [Estrutura](#estrutura) | [Requisitos](#requisitos) | [Como
 
 Observação: a arquitetura foi implementada com diferentes IPs HLS para tamanhos de vetores de 50×50, dobrando até 1600×1600, e uma IP adicional de 1000×1000.
 
-[Voltar ao topo](#topo)
+<!-- [Voltar ao topo](#topo) -->
 
 ## Target e ferramentas usadas
 - Vivado: 2025.1 (detectado a partir do `.xpr`)
 - Vitis/Vitis HLS: 2025.1 e/ou 2024.2 (conforme projetos em `hls/`; adaptável)
 - Dispositivo: Xilinx Spartan-7 XC7S50-CSGA324-1
 
-[Voltar ao topo](#topo)
+<!-- [Voltar ao topo](#topo) -->
 
 ## Requisitos <a id="requisitos"></a>
-- Windows 10/11 64-bit
+- Sistema: Windows 10/11 64-bit
 - Git com suporte a submódulos
-- Xilinx Vivado e Vitis instalados (versões em “Target e ferramentas usadas”)
-- Licenças Xilinx ativas
-- Drivers JTAG e USB-UART
-- Placa FPGA compatível com o dispositivo alvo (Spartan-7 XC7S50-CSGA324)
+- Xilinx Vivado e Vitis instalados (versões em "Target e ferramentas usadas")
+- Licenças Xilinx ativas (Vivado/Vitis)
+- Drivers: JTAG (Xilinx/Digilent) e USB-UART (FTDI) para a sua placa
+- FPGA/placa compatível com XC7S50-CSGA324 (ou equivalente) com JTAG e UART
 
-[Voltar ao topo](#topo)
+<!-- [Voltar ao topo](#topo) -->
 
 ## Como clonar <a id="clonar"></a>
 Este repositório usa um submódulo para os projetos de HLS (`hls/`).
@@ -58,7 +58,7 @@ git submodule update --remote --merge
 
 Nota: baixar como ZIP não traz submódulos.
 
-[Voltar ao topo](#topo)
+<!-- [Voltar ao topo](#topo) -->
 
 ## Fluxo resumido <a id="fluxo"></a>
 Pré-requisito: confira “Requisitos” e siga “Como clonar”.
@@ -74,7 +74,7 @@ Pré-requisito: confira “Requisitos” e siga “Como clonar”.
 - HLS (opcional)
 	- Utilize os projetos em `hls/` para gerar/atualizar IPs; reintegre no Vivado se necessário.
 
-[Voltar ao topo](#topo)
+<!-- [Voltar ao topo](#topo) -->
 
 ## Observações importantes <a id="observacoes"></a>
 - `hls/` é um submódulo: edite no repositório do submódulo e atualize o ponteiro aqui.
