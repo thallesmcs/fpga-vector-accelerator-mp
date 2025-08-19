@@ -52,7 +52,7 @@ Este repositório usa um submódulo para os projetos de HLS (`hls/`).
 - Repositório principal: https://github.com/thallesmcs/fpga-vector-accelerator-mp.git
 - Submódulo HLS: https://github.com/thallesmcs/Vitis_HLS.git
 
-Clone já incluindo os submódulos (PowerShell):
+Clone já incluindo os submódulos:
 
 ```
 git clone --recurse-submodules https://github.com/thallesmcs/fpga-vector-accelerator-mp.git
